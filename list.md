@@ -1,5 +1,7 @@
 ### Python List
 
+[google.com]
+
 - List literals are written within square brackets []
 - Works like string - len() function works
 - Index starts from 0
