@@ -1,4 +1,4 @@
-[Home](/python-training) | [List](/python-training/list)
+[Home](/python-training)  [List](/python-training/list)
 
 ### Python List
 
