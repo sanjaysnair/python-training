@@ -1,6 +1,6 @@
 ### Python List
 
-[google.com]
+[Home](/) | [List](/list)
 
 - List literals are written within square brackets []
 - Works like string - len() function works
