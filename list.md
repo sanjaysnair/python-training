@@ -1,6 +1,6 @@
-### Python List
+[Home](/python-training) | [List](/python-training/list)
 
-[Home](/) | [List](/list)
+### Python List
 
 - List literals are written within square brackets []
 - Works like string - len() function works
