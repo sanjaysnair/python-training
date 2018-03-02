@@ -37,3 +37,21 @@ NameError: name 'foo' is not defined
 >>>
 ```
 
+### Source Code
+- source files use the ".py" extension and are called "modules"
+- executed as "python <filename>"
+
+**hello.py - Command line argument**
+```
+# import modules used here -- sys is a very standard one
+import sys
+
+print("Hello there ", sys.argv[1])
+```
+
+**hello.py - output**
+```
+Sanjays-MacBook-Air:python_training sanjaysnair$ python3 hello.py sanjay
+Hello there  sanjay
+```
+
