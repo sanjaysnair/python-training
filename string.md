@@ -96,7 +96,7 @@ It was the best of times.
 - s.split('delim') -- returns a list of substrings separated by the given delimiter. The delimiter is not a regular expression, it's just text. 'aaa,bbb,ccc'.split(',') -> ['aaa', 'bbb', 'ccc']. As a convenient special case s.split() (with no arguments) splits on all whitespace chars.
 - s.join(list) -- opposite of split(), joins the elements in the given list together using the string as the delimiter. e.g. '---'.join(['aaa', 'bbb', 'ccc']) -> aaa---bbb---ccc
 
-**[Reference](https://docs.python.org/3/library/stdtypes.html#string-methods)**
+**![Reference](https://docs.python.org/3/library/stdtypes.html#string-methods)**
 
 ### String slice
 
