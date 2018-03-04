@@ -86,7 +86,7 @@ print(repeat("Sanjay", True))
 print(repeat("GTO", True))
 ```
 
-**(Download)[function_repeat_str.py]**
+**[Download](function_repeat_str.py)**
 
 - Repeating a string works with operators **'+'** or **'*'**
 - Repeat operators are overloaded because it behaves different for numbers and string
