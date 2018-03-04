@@ -1,4 +1,4 @@
-[Home](/python-training)  |  [List](/python-training/list)  |  [List](/python-training/list)  |  [List](/python-training/list)  |  [List](/python-training/list)  |  [List](/python-training/list)  |  [List](/python-training/list)  |  [List](/python-training/list)  |  [List](/python-training/list)
+[Index](/python-training)  |  [Introduction](/python-training/intro)  |  [List](/python-training/list) 
 
 ### Python List
 
