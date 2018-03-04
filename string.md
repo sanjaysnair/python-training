@@ -101,7 +101,9 @@ It was the best of times.
 ### String slice
 
 **The slice s[start:end] is the elements beginning at start and extending up to but not including end**
+
 Suppose we have s = "Hello"
+
 ![Hello](hello.png)
 
 - s[1:4] is 'ell' -- chars starting at index 1 and extending up to but not including index 4
