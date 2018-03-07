@@ -1,4 +1,4 @@
-[Index](/python-training)  |  [Introduction](/python-training/intro) |  [String](/python-training/string) 
+[Index](/python-training)  |  [Introduction](/python-training/intro) |  [String](/python-training/string) |  [List](/python-training/list) 
 
 ## Introduction
 
