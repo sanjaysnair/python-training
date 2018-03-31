@@ -1,4 +1,4 @@
-[Index](/python-training)  |  [Introduction](/python-training/intro) |  [String](/python-training/string) |  [List](/python-training/list) 
+[Index](/python-training)  |  [Introduction](/python-training/intro) |  [String](/python-training/string) |  [List](/python-training/list) |  [Sorting](/python-training/sort) |  [Dict and Files](/python-training/dict_file) 
 
 ## Introduction
 
@@ -13,7 +13,7 @@
 ### Interactive Shell
 ```
 Sanjays-MacBook-Air:~ sanjaysnair$ python3
-Python 3.6.1 (default, Jun  5 2017, 01:51:51) 
+Python 3.6.1 (default, Jun  5 2017, 01:51:51)
 [GCC 4.2.1 Compatible Apple LLVM 8.1.0 (clang-802.0.42)] on darwin
 Type "help", "copyright", "credits" or "license" for more information.
 >>> a=10
@@ -79,7 +79,7 @@ def repeat_with_star(s, exclaim):
     If exclaim is true, add exclamation marks.
     """
 
-    result = s * s * s 
+    result = s * s * s
     if exclaim:
         result = result + '!!!'
     return result
@@ -177,5 +177,3 @@ count(...) method of builtins.list instance
     L.count(value) -> integer -- return number of occurrences of value
 (END)
 ```
-
-

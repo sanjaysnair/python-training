@@ -1,4 +1,4 @@
-[Index](/python-training)  |  [Introduction](/python-training/intro) |  [String](/python-training/string) |  [List](/python-training/list) 
+[Index](/python-training)  |  [Introduction](/python-training/intro) |  [String](/python-training/string) |  [List](/python-training/list) |  [Sorting](/python-training/sort) |  [Dict and Files](/python-training/dict_file) 
 
 ## String
 
@@ -175,4 +175,3 @@ You have the right to remain silent.
 ```
 
 [Download](if_statement.py)
-

@@ -1,3 +1,5 @@
+[Index](/python-training)  |  [Introduction](/python-training/intro) |  [String](/python-training/string) |  [List](/python-training/list) |  [Sorting](/python-training/sort) |  [Dict and Files](/python-training/dict_file)
+
 ## Python Sorting
 
 sorted(list) function, takes a list and returns a new list with those elements in sorted order
@@ -55,15 +57,15 @@ alist.sort()            ## correct
 alist = blist.sort()    ## NO incorrect, sort() returns None
 ```
 
-- The sort() method must be called on a list; it does not work on any enumerable collection (but the sorted() function above works on anything). 
+- The sort() method must be called on a list; it does not work on any enumerable collection (but the sorted() function above works on anything).
 - The sort() method changes the underlying list and returns None
 
 
 
 ## Tuples
-- A tuple is a fixed size grouping of elements, such as an (x, y) co-ordinate. 
-- Tuples are like lists, except they are immutable and do not change size (tuples are not strictly immutable since one of the contained elements could be mutable). 
-- Tuples play a sort of "struct" role in Python -- a convenient way to pass around a little logical, fixed size bundle of values. 
+- A tuple is a fixed size grouping of elements, such as an (x, y) co-ordinate.
+- Tuples are like lists, except they are immutable and do not change size (tuples are not strictly immutable since one of the contained elements could be mutable).
+- Tuples play a sort of "struct" role in Python -- a convenient way to pass around a little logical, fixed size bundle of values.
 - A function that needs to return multiple values can just return a tuple of the values. For example, if I wanted to have a list of 3-d coordinates, the natural python representation would be a list of tuples, where each tuple is size 3 holding one (x, y, z) group.
 
 ```
@@ -89,7 +91,7 @@ print z  ## hike
 
 ### List Comprehensions
 
-A list comprehension is a compact way to write an expression that expands to a whole list. 
+A list comprehension is a compact way to write an expression that expands to a whole list.
 
 Suppose we have a list nums [1, 2, 3, 4], here is the list comprehension to compute a list of their squares [1, 4, 9, 16]:
 ```
@@ -117,5 +119,3 @@ fruits = ['apple', 'cherry', 'bannana', 'lemon']
 afruits = [ s.upper() for s in fruits if 'a' in s ]
 ## ['APPLE', 'BANNANA']
 ```
-
-

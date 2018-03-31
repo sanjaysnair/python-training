@@ -1,3 +1,5 @@
+[Index](/python-training)  |  [Introduction](/python-training/intro) |  [String](/python-training/string) |  [List](/python-training/list) |  [Sorting](/python-training/sort) |  [Dict and Files](/python-training/dict_file)
+
 ## Dict Hash Table
 
 - Python's efficient key/value **hash table** structure is called a "**dict**".
@@ -29,10 +31,10 @@ if 'z' in dict: print(dict['z'])     ## Avoid KeyError
 print(dict.get('z'))  ## None (instead of KeyError)
 ```
 
-- A for loop on a dictionary iterates over its keys by default. 
-- The keys will appear in an arbitrary order. 
-- The methods dict.keys() and dict.values() return lists of the keys or values explicitly. 
-- There's also an items() which returns a list of (key, value) tuples, which is the most efficient way to examine all the key value data in the dictionary. 
+- A for loop on a dictionary iterates over its keys by default.
+- The keys will appear in an arbitrary order.
+- The methods dict.keys() and dict.values() return lists of the keys or values explicitly.
+- There's also an items() which returns a list of (key, value) tuples, which is the most efficient way to examine all the key value data in the dictionary.
 - All of these lists can be passed to the sorted() function.
 
 ```
@@ -116,10 +118,10 @@ print(dict)      ## {'a':1, 'c':3}
 
 ## File
 
-- The open() function opens and returns a file handle that can be used to read or write a file in the usual way. 
-- The code f = open('name', 'r') opens the file into the variable f, ready for reading operations, and use f.close() when finished. 
-- Instead of 'r', use 'w' for writing, and 'a' for append. 
-- The standard for-loop works for text files, iterating through the lines of the file (this works only for text files, not binary files). 
+- The open() function opens and returns a file handle that can be used to read or write a file in the usual way.
+- The code f = open('name', 'r') opens the file into the variable f, ready for reading operations, and use f.close() when finished.
+- Instead of 'r', use 'w' for writing, and 'a' for append.
+- The standard for-loop works for text files, iterating through the lines of the file (this works only for text files, not binary files).
 - The for-loop technique is a simple and efficient way to look at all the lines in a text file:
 
 ```

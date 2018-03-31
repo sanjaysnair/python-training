@@ -1,4 +1,4 @@
-[Index](/python-training)  |  [Introduction](/python-training/intro) |  [String](/python-training/string) |  [List](/python-training/list) 
+[Index](/python-training)  |  [Introduction](/python-training/intro) |  [String](/python-training/string) |  [List](/python-training/list) |  [Sorting](/python-training/sort) |  [Dict and Files](/python-training/dict_file) 
 
 ### Python List
 
@@ -6,7 +6,7 @@
 - Works like string - len() function works
 - Index starts from 0
 - The "empty list" is just an empty pair of brackets [ ]
-- The '+' works to append two lists, so [1, 2] + [3, 4] yields [1, 2, 3, 4] 
+- The '+' works to append two lists, so [1, 2] + [3, 4] yields [1, 2, 3, 4]
 
 ```
 gto = ['Bengaluru', 'Paris', 'Bucharest']
@@ -16,7 +16,7 @@ print(len(gto)) ## 3
 
 **Assignment with an = on lists does not make a copy**
 ```
-# Assignment with an = on lists does not make a copy. 
+# Assignment with an = on lists does not make a copy.
 # Instead, assignment makes the two variables point to the one list in memory.
 gto = ['Bengaluru', 'Paris', 'Bucharest']
 global_tools = gto
@@ -130,4 +130,3 @@ print(list[1:-1])   ## ['b', 'c']
 list[0:2] = 'z'    ## replace ['a', 'b'] with ['z']
 print(list)         ## ['z', 'c', 'd']
 ```
-
